@@ -1,0 +1,332 @@
+/* General Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    position: fixed; /* Fix header at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  header .link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  header .link:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+  }
+  
+  .link:hover {
+    cursor: pointer;
+  }
+  
+  body {
+    background-color: #f3f3f300;
+    padding-top: 13em;
+    padding-left: 8em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  p {
+    font-size: 2.3vh;
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  #one{
+     animation: type 2s steps(40, end) forwards;
+  }
+  
+  p:nth-child(2) {
+    animation: type2 2.1s steps(150, end) forwards;
+    animation-delay: 2s;
+  }
+  p:nth-child(3) {
+    animation: type3 2.7s steps(90, end) forwards;
+    animation-delay: 4.5s;
+  }
+  p:nth-child(4) {
+    animation: type4 2.5s steps(80, end) forwards;
+    animation-delay: 7.75s;
+  }
+  p:nth-child(5) {
+    animation: type5 2.25s steps(100, end) 11s forwards,
+    blink2 ease-in-out 1s forwards 13.5s;
+  
+  }
+  p:nth-child(6) {
+    animation: type6 2s steps(50, end) forwards;
+    animation-delay: 14.5s;
+  }
+  p:nth-child(7) {
+    animation: type7 1.5s steps(40, end) 17s forwards;
+    animation-delay: 16.5s;
+  }
+  p:nth-child(8) {
+    animation: type8 1.5s steps(40, end) forwards;
+    animation-delay: 17.5s;
+  }
+  p:nth-child(9) {
+    animation: type9 1.5s steps(40, end) forwards;
+    animation-delay: 20.5s;
+  }
+  
+  p:nth-child(10) {
+    animation: type10 1.5s steps(40, end) 22s forwards;
+    animation-delay: 21.3s;
+  }
+  
+  p:nth-child(11) {
+    animation: type10 1.5s steps(40, end) 22s forwards;
+    margin-bottom: 25px;
+  }
+  
+  a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: alias;
+  }
+  
+  @keyframes type {
+    0% {
+      opacity: 1;
+      width: 0px;
+      border-right: .5em solid #ffffff;
+    }
+  
+    99% {
+      border-right: .5em solid #ffffff;
+    }
+  
+    100% {
+      width: 20em;
+      border: 0;
+      opacity: 1;
+    }
+  }
+  @keyframes type2 {
+    0% {
+      opacity: 1;
+      width: 0px;
+      border-right: .5em solid #ffffff;
+    }
+  
+    99% {
+      border-right: .5em solid #ffffff;
+    }
+  
+    100% {
+      width: 30em;
+      border: 0;
+      opacity: 1;
+    }
+  }
+    @keyframes type3 {
+    0% {
+      opacity: 1;
+      width: 0px;
+      border-right: .5em solid #ffffff;
+    }
+  
+    99% {
+      border-right: .5em solid #ffffff;
+    }
+  
+    100% {
+      width: 45em;
+      border: 0;
+      opacity: 1;
+    }
+  }
+    @keyframes type4 {
+    0% {
+      opacity: 1;
+      width: 0px;
+      border-right: .5em solid #ffffff;
+    }
+  
+    99% {
+      border-right: .5em solid #ffffff;
+    }
+  
+    100% {
+      width: 50em;
+      border: 0;
+      opacity: 1;
+    }
+  }
+    @keyframes type5 {
+    0% {
+      opacity: 1;
+      width: 0px;
+      border-right: .5em solid #ffffff;
+    }
+  
+    99% {
+      border-right: .5em solid #ffffff;
+    }
+  
+    100% {
+      width: 50em;
+      opacity: 1;
+    }
+  }
+  
+  
+   @keyframes type6 {
+    0% {
+      opacity: 1;
+      width: 0px;
+      border-right: .5em solid #ffffff;
+    }
+  
+    99% {
+      border-right: .5em solid #ffffff;
+    }
+  
+    100% {
+      width: 30em;
+      border: 0;
+      opacity: 1;
+    }
+  }
+   @keyframes type7 {
+    0% {
+      opacity: 1;
+      width: 0px;
+      border-right: .5em solid #ffffff;
+    }
+  
+  
+    100% {
+      width: 50em;
+      border-right: .5em solid #ffffff;
+      opacity: 1;
+    }
+  }
+    @keyframes type8 {
+    0% {
+     opacity: 1;
+     width: 0px;
+     border-right: .5em solid #ffffff;
+    }
+    
+    
+    100% {
+     width: 27em;
+     border-right: .5em solid #ffffff;
+     opacity: 1;
+    }
+  }
+    @keyframes type9 {
+    0% {
+      opacity: 1;
+      width: 0px;
+      border-right: .5em solid #ffffff;
+    }
+  
+  
+    100% {
+      width: 58em;
+      border-right: .5em solid #ffffff;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes type10 {
+    0% {
+      opacity: 1;
+      width: 0px;
+      border-right: .5em solid #ffffff;
+    }
+  
+  
+    100% {
+      width: 41em;
+      border-right: .5em solid #ffffff;
+      opacity: 1;
+    }
+  }
+  
+  
+  @keyframes full{
+    0%{
+      opacity: 1;
+      width: 13.5em;
+    }
+  }
+
+  .skip {
+     animation: full 1ms steps(40, end) forwards;
+  }
+  
+  
+  
+  @media only screen and (max-height: 700px){
+    body{
+    padding-top: 6em;
+    padding-left: 2em;
+    }
+  
+    p{
+      font-size: 15px;
+    }
+  
+    .buttons{
+      font-size: 30px;
+    }
+  
+    .comment{
+      font-size: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px){
+    body{
+    width: 20%;
+    padding-left: 0em;
+    padding-top: 10em;
+    }
+  
+    p{
+      display: flex;
+      text-overflow: wrap;
+      font-size: 13px;
+    }
+  
+    .buttons{
+      font-size: 24px;
+      padding-left: 2em;
+    }
+  
+    .comment{
+      font-size: 1.5vh;
+    }
+    }
+  
+  @media only screen and (max-height: 500px){
+    body{
+      padding-top: 0em;
+    }
+    .buttons{
+      font-size: 20px;
+    }
+    }
